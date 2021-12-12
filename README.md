@@ -2,7 +2,9 @@
 
 • Implemented a centralized scheduling framework to simulate scheduling algorithms in a distributed setting.
 
-• The simulated cluster consists of 1 Master process and 3 Worker processes. The Master listens for job requests and assigns them to Workers based on a scheduling algorithm.
+• The simulated cluster consists of 1 Master process and 3 Worker processes. The Master process makes	scheduling decisions while the Worker processes	execute	the	tasks	and	inform the Master	when a task completes	its execution. 
+
+• The Master process listens for job requests and dispatches the tasks in the jobs to the Worker processes based on a scheduling algorithm.
 
 • Implemented scheduling algorithms like random, round-robin and least-loaded to schedule jobs.
 
