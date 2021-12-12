@@ -9,7 +9,7 @@
 
 Scheduling	Algorithms:
 
-1. Random: The Master chooses a machine at random. It then checks if the machinehas free slots available. If yes, it launches the	task on the	machine. Else, it chooses	another	machine at random. This	process	continues	until	a	free slot is found.
+1. Random: The Master chooses a machine at random. It then checks if the machine has free slots available. If yes, it launches the task on the machine. Else, it chooses another	machine at random. This	process	continues	until	a	free slot is found.
 
 2. Round-Robin: The	machines are ordered based on worker_id of the Worker running on the machine. The	Master picks a machine in	round-robin	fashion. If the machine does not have	a free slot, the Master moves	on to	the	next worker_id in the	ordering. This process continues until a free	slot is	found.
 
